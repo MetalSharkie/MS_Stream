@@ -1,0 +1,13 @@
+Here is a bunch of of sites I usually use and find helpfull while dealing with any programming problems :D
+
+http://cpp0x.pl
+http://www.cplusplus.com
+https://en.cppreference.com/w/
+
+
+https://www.tutorialspoint.com/index.htm
+https://www.tutorialspoint.com/cplusplus/index.htm
+https://www.tutorialspoint.com/cpp_standard_library/index.htm
+
+
+https://rosettacode.org/wiki/Rosetta_Code
