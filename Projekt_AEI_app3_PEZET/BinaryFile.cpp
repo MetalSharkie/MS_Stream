@@ -1,6 +1,6 @@
 #include "BinaryFile.h"
 
-BinaryFile::BinaryFile(const std::string filePath, const std::string mode) : IFile(filePath, mode){}
+BinaryFile::BinaryFile(const std::string filePath, const std::string mode) : IFile(filePath, mode) {}
 
 BinaryFile::~BinaryFile()
 {
@@ -12,7 +12,7 @@ IFile::FileError BinaryFile::Write(const std::vector<Point>& v)
 	FileError retVal = FileError(ACCESS_DENIED);
 
 	if (openMode & std::fstream::out)
-	{
+	{ 
 		file.write((const char*)v.data(), v.size() * sizeof(Point));
 		retVal = FileError(SUCCESS);
 	}

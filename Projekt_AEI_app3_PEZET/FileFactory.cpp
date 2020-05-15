@@ -1,5 +1,11 @@
 #include "FileFactory.h"
 
+//wybór jak bêdziemy traktowaæ ten plik w ale¿noœci od rozszerzenia, 
+//jeœli bin to wtedy traktujemy ten plik BinaryFile`m
+//jeœli csv to bêdziemy traktowaæ ten plik klas¹ CsvFile 
+//mo¿na to zrobiæ w mainie
+
+
 IFile* FileFactory::Open(const std::string filePath, const std::string mode)
 {
 	IFile* file = nullptr;

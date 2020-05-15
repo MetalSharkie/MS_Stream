@@ -9,13 +9,13 @@ class IFile
 protected:
 	fstream file;
 	string filePath;
-	unsigned long length;
+	unsigned long length;   //gdzie dajemy wartoœæ length? 
 	fstream::openmode openMode;
 public:
 	IFile(const string, const string);
 	virtual ~IFile();
 
-	enum FileError
+	enum FileError 
 	{
 		SUCCESS,
 		ACCESS_DENIED,

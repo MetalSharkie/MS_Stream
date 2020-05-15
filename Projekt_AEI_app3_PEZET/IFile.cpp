@@ -12,9 +12,9 @@ IFile::IFile(const std::string filePath, const std::string mode) : filePath(file
 	file.open(filePath, openMode);
 	if (file.is_open())
 	{
-		file.seekg(0, std::fstream::end);
-		length = file.tellg();
-		file.seekg(0, std::fstream::beg);
+		file.seekg(0, std::fstream::end); //ustawia wskazówkê na koñcu ci¹gu wyrazów/znaków który jest w pliku
+		length = file.tellg();    //tellg zwróci³ pozycjê wskazówki na osattnim miejscu w pliku, czyli zwróci³ iloœæ znaków(plus spacji) w ca³ym pliku
+		file.seekg(0, std::fstream::beg); 
 	}
 }
 
