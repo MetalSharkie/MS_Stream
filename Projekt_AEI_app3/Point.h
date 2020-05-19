@@ -1,9 +1,20 @@
 #pragma once
+
+#include <cstdint>
+#include <cstdio>
+
+constexpr uint32_t SERIALISED_POINT_BUFF_SIZE = 31;
+
 struct Point
 {
 	Point() : x(0.0), y(0.0), z(0.0) {}
 	Point(double x, double y, double z) : x(x), y(y), z(z) {}
 	double x, y, z;
+	
+	void serialise(char* buffer) const
+	{
+		snprintf(buffer, SERIALISED_POINT_BUFF_SIZE, "(%f, %f, %f)", x, y, z);
+	}
 };
 
 /*
