@@ -12,6 +12,7 @@ C/C++:
 http://cpp0x.pl
 http://www.cplusplus.com
 https://en.cppreference.com/w/
+https://docs.microsoft.com/pl-pl/cpp/cpp/cpp-language-reference?view=vs-2019
 
 https://www.tutorialspoint.com/cplusplus/index.htm
 https://www.tutorialspoint.com/cpp_standard_library/index.htm
