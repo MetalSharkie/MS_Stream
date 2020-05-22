@@ -1,19 +1,27 @@
 Here is a bunch of of sites I usually use and find helpfull while dealing with any programming problems :D
 
+ALL:
+
+https://www.tutorialspoint.com/index.htm
+https://rosettacode.org/wiki/Rosetta_Code
+https://www.sourcecodester.com
+http://freecomputerbooks.com
+
+C/C++:
+
 http://cpp0x.pl
 http://www.cplusplus.com
 https://en.cppreference.com/w/
 
-
-https://www.tutorialspoint.com/index.htm
 https://www.tutorialspoint.com/cplusplus/index.htm
 https://www.tutorialspoint.com/cpp_standard_library/index.htm
 
-
-https://rosettacode.org/wiki/Rosetta_Code
-https://www.sourcecodester.com
+https://infotraining.bitbucket.io/cpp-thd/index.html
 
 http://www-personal.acfr.usyd.edu.au/tbailey/ctext/
+
+
+Python:
+
 http://inventwithpython.com/cracking/chapter0.html
 
-http://freecomputerbooks.com
