@@ -11,3 +11,9 @@ https://www.tutorialspoint.com/cpp_standard_library/index.htm
 
 
 https://rosettacode.org/wiki/Rosetta_Code
+https://www.sourcecodester.com
+
+http://www-personal.acfr.usyd.edu.au/tbailey/ctext/
+http://inventwithpython.com/cracking/chapter0.html
+
+http://freecomputerbooks.com
